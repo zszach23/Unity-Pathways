@@ -15,8 +15,19 @@ Prototypes are the main projects that taught how to develop certain aspects of g
 * **Food Stampede** - Shoot food at an oncoming stampede of animals
 
 * **Parkour** - An infinite run and jump game
+  * Press `Space` to jump, double tap to Double Jump
+  * Hold `LeftShift` to run faster
+  
 
 * **Sumo Battle** - Knock off enemy waves from the battle ring using brute force and power-ups
+  * Power-ups will periodically spawn on the arena. There are three different power-ups:
+    * Rockets - Green Diamond
+      * Press `F` to shoot rockets at enemies
+    * Pushback - Yellow Diamond
+      * Increases force you hit enemies with
+    * Smash - Brown Diamond
+      * Press `Space` to rise and smash the ground, knocking back enemies in the area
+  * Every 2 rounds, a boss will spawn that repeatedly spawns enemies until it is taken out
 
 * **Fruit Ninja** - Slice the fruit, avoid the bombs
 
