@@ -45,3 +45,19 @@ using your knowledge of C# scripting and Unity.
 * **Soccer** - Knock the oncoming soccer balls into the other goal while defending your own goal
 
 * **Whack-a-Food** - Click the food and avoid the skulls to earn points
+
+### Pathways Part 2
+
+This section is the second half of the Junior Programmer Pathway that focused on more complex topics and tools rather than true game development. This section included source control setup in Unity, managing flow and data between scenes and sessions, object-oriented principles, and optimizations tools.
+
+* **Resource Management Simulator** - Produce resources and ship them out.
+  * In the menu screen, you can select a color of the forklifts in the game scene.
+    * You can save this color by pressing the Save button, which will save this color for future sessions.
+    * You can load the last saved color from a previous session by pressing the Load button.
+  * In the game scene, you can select different units to see their information.
+    * You can left-click a forklift and right-click on a resource to make the forklift collect and drop off the resource at the shipping area.
+    * You can left-click the person and right-click on a resource to make the person move to the resource and increase its production rate.
+  * You can go back to the menu and change, save, or load colors at any time.
+
+* **Optimization** - 2000 forklifts rotate and move around the scene.
+  * This project had me use Unity's Profiler tool to track down the cause of the tanked performance. Eventually, I tracked down the cause to be the Move() method, which took approximately 90ms to complete every frame, which heavily dropped performance. Once it was fixed, performance was significantly improved (about 70 FPS difference).
